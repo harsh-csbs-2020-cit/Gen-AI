@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 * {
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Source Code Pro', monospace;    
+}
+BrowserRouter{
+    background-color: #222222;
 }
 
 @media screen and (min-width: 480px) {

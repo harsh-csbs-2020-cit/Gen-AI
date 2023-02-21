@@ -1,0 +1,34 @@
+#blob {
+  /* background-color: rgb(112, 23, 255); */
+  background-color: rgb(255, 255, 255);
+  height: 700px;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /* translate: -50% -50%; */
+  border-radius: 50%;
+  background: linear-gradient(to right, yellow, aquamarine, rgb(85, 0, 255));
+  animation: rotate 20s infinite;
+  filter: blur(10px);
+  z-index: 0;
+  mix-blend-mode: hue;
+}
+#blur {
+  height: 100%;
+  width: 100%;
+  /* position: absolute; */
+  z-index: 2;
+  /* backdrop-filter: blur(200px); */
+}
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  /* 50% {
+    scale: 1 1.5;
+  } */
+  to {
+    rotate: 360deg;
+  }
+}
